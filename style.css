@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:15px;
+    padding: 20px;
+    font-size: 20px;
+}
+.container{
+    border: 2px solid lightgray;
+    background-color: #f2f2f2;
+    width:90vw;
+    height: 90vh;
+    display:flex;
+}
+.right{
+    width: 70%;
+    background-color: rgb(234, 234, 234);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding : 20px 63px;
+}
+form h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    padding:12px;
+    width:100%;
+    margin: 10px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid rgb(174, 174, 174);
+    margin-right: 50px;
+}
+input[type="submit"]{
+    background-color: rgb(80, 247, 55);
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    padding: 12px;
+}
+input[type="submit"]:hover{
+    background-color: green;
+}
+input[type="submit"]:visited{
+    background-color: blue;
+    
+}
+.left{
+    width: 30%;
+    background-color: rgb(59, 236, 133);
+    font-size: 20px;
+    color: white;
+    padding: 20px 30px;
+    line-height: 2.5em;
+}
+.left h1{
+    color: black;
+}
+.left ul{
+    overflow:hidden;
+}.left ul li{
+    padding:5px;
+    list-style: none;
+}
